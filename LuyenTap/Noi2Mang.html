@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Noi 2 Mang</title>
+</head>
+<body>
+<script>
+    var array1 = [];
+    var array2 = [];
+    for (let i = 0; i < 10; i++){
+        array1[i] = prompt("nhap 10 cac phan tu mang 1")
+    }
+    for (let i = 0; i < 10; i++){
+        array2[i] = prompt("nhap 10 cac phan tu mang 2")
+    }
+    document.write(array1 + "<br>")
+    document.write(array2+ "<br>")
+    var array3 = array1.concat(array2);
+    document.write(array3)
+</script>
+</body>
+</html>
